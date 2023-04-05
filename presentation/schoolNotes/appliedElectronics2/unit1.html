@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Applied Electronics</title>
+		<link rel="stylesheet" href="../../dist/reset.css">
+		<link rel="stylesheet" href="../../dist/reveal.css">
+		<link rel="stylesheet" href="../../dist/theme/black.css">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../../plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			
+
+				<section>
+					<section data-markdown>
+						# Applied Electronics 2 
+						$f:(\alpha , \omega)$
+						---
+						## Made by 
+						$\mathscr{Fitsum}$
+
+					</section>
+				</section>
+
+				<section data-markdown>
+					## *Unit one*
+					## Learning objectives
+					CLO1 :- Construct the concept of feedback system.
+
+				</section>
+
+				<section>
+					<section data-markdown>
+						# Feed back amplifiers   
+						---
+						Feed back amplifier : -
+						<br>
+						*Is one in which the fraction of the output is given back to the input* 
+						---
+						**If the output is given back to the input  increased the input it's called**
+
+					</section>
+				</section>
+
+				<section data-transition = "zoom-in zoom-out" >
+					<h1>positive feed back</h1>
+				</section>
+				<section data-transition = "zoom-in zoom-out" >
+					<h1>direct feed back</h1>
+				</section>
+				<section data-transition = "zoom-in zoom-out" >
+					<h1>regenerative feed back</h1>
+				</section>
+
+				<section>
+					<em> 
+						If the output is 180 degree out of phase with the input or if the output reduce the input in feed back it's called 
+					</em>
+				</section>
+
+				<section data-transition = "zoom-in zoom-out" >
+					<h1>Negetive feed back</h1>
+				</section>
+				<section data-transition = "zoom-in zoom-out" >
+					<h1>inverse feed back</h1>
+				</section>
+				<section data-transition = "zoom-in zoom-out" >
+					<h1>degenerative feed back</h1>
+				</section>
+				<section data-markdown>
+					**normal amplifiers takes an input and mutiplies the input and make an output**
+						$f:(\alpha , \omega)$
+				</section>
+
+				<section >
+					<div class="mermaid">
+						%%{init: {'theme': 'dark', 'themeVariables': { 'darkMode': true }}}%%
+						flowchart TD
+						A[input] --> B[Amplifier]
+						B --> C[output]
+						C --> D[beta factor]
+						D --> A
+					</div>
+				</section>
+
+
+
+			</div>
+		</div>
+
+		<script src="../../dist/reveal.js"></script>
+		<script src="../../reveal.js-plugins/notes/notes.js"></script>
+		<script src="../../reveal.js-plugins/markdown/markdown.js"></script>
+		<script src="../../reveal.js-plugins/highlight/highlight.js"></script>
+		<script src="../../reveal.js-plugins/math/math.js"></script>
+		<script src="../../reveal.js-plugins/mermaid/mermaid.js"></script>
+
+		<script>
+			Reveal.initialize({
+				hash: true,
+				controls:  false,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX,  RevealMermaid ]
+			});
+		</script>
+	</body>
+</html>
